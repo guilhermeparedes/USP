@@ -1,4 +1,3 @@
-
 '''
 D) NON-LINEAR TEST
 '''
@@ -10,7 +9,6 @@ from scipy.integrate import trapezoid, quad
 from scipy.interpolate import InterpolatedUnivariateSpline
 from scipy.special import sici
 
-########################################################################################################################
 
 # Constants
 H0 = 67.5
@@ -25,7 +23,6 @@ rho_m0 = Om_m * rho_crit_0
 delta_c = 1.686
 
 
-########################################################################################################################
 
 # Function to get the power spectrum P(k) by CAMB parameters
 def P():
@@ -35,8 +32,6 @@ def P():
     results = camb.get_results(pars)
     kh, z, pk = results.get_matter_power_spectrum(minkh=1e-3, maxkh=100, npoints=100)
     return kh, z, pk
-
-
 
 
 # Window function W(k, R)
@@ -100,7 +95,6 @@ def g_func(sigma):
     sigma = np.asarray(sigma)
     return B * ((sigma / e) ** (-d) + sigma**(-f)) * np.exp(-g / (sigma ** 2))
 
-########################################################################################################################
 
 # Função de bias b_z(M)
 def b_z(nu):
@@ -114,7 +108,6 @@ def b_z(nu):
 
     return 1 - A * nu ** a / (nu ** a + delta_c ** a) + B * nu ** b + C * nu ** c
 
-########################################################################################################################
 
 # Funtion to find M_star
 def find_M_star(sigma_crit, kh, pk, z, R_values):
@@ -189,7 +182,6 @@ def u_k_Mvir(k, M_vir, r_vir, rho_s, c):
 
     return u_values
 
-########################################################################################################################
 
 # Non-linear Halofit power spectrum by CAMB
 def P_hf():
