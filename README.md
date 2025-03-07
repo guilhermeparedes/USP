@@ -3,27 +3,26 @@
 Projetos e exercicios programa (EP) referente a disciplinas cursadas durante minha graduação em Bacharelado em Física.
 
 ## Cálculo Numérico
+- Introdução ao Cálculo Numérico
 
-1. Introdução ao Cálculo Numérico
+- Solução de Equações Não Lineares
 
-2. Solução de Equações Não Lineares
+- Solução de Sistemas Lineares.
 
-3. Solução de Sistemas Lineares
+- Interpolação e Aproximação de Funções.
 
-4. Interpolação e Aproximação de Funções
+- Integração Numérica
 
-5. Integração Numérica
+- Diferenciação Numérica
 
-6. Diferenciação Numérica
+- Solução de Equações Diferenciais Ordinárias (EDOs)
 
-7. Solução de Equações Diferenciais Ordinárias (EDOs)
+- Solução de Equações Diferenciais Parciais (EDPs)
 
-8. Solução de Equações Diferenciais Parciais (EDPs)
+- Autovalores e Autovetores
 
-9. Autovalores e Autovetores
-
-10. Otimização Numérica
+- Otimização Numérica
 
 ## Intro. à Cosmologia Física 
 
-- Projeto Halo Model  
+- Halo Model  
